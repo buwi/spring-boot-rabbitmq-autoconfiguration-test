@@ -1,0 +1,19 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5640
+    username: guest
+    password: guest
+csg:
+  rabbitmq:
+    primary:
+      host: localhost
+      port: 5640
+      username: guest
+      password: guest
+    another:
+      host: localhost
+      port: 5640
+      username: guest
+      password: guest
+    
