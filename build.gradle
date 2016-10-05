@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.4.0.RELEASE'
+		springBootVersion = '1.4.1.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -13,7 +13,8 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
-
+apply plugin: 'project-report'
+	
 jar {
 	baseName = 'spring-boot-rabbitmq-autoconfiguration-test'
 	version = '0.0.1-SNAPSHOT'
